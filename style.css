@@ -1,0 +1,72 @@
+* CSS - Estilização Visual da Página */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f2f5; /* Mude a cor do fundo da tela aqui */
+            color: #333333;            /* Mude a cor do texto geral aqui */
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .card {
+            background-color: #ffffff; /* Mude a cor do fundo do cartão aqui */
+            max-width: 450px;
+            margin: 0 auto;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid #0077b5; /* Mude a cor da barra do topo aqui */
+        }
+
+        .foto-perfil {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #0077b5; /* Mude a cor da borda da foto */
+        }
+
+        h1 {
+            color: #0077b5; /* Mude a cor do seu nome */
+            margin-bottom: 5px;
+        }
+
+        .profissao {
+            font-size: 1.2rem;
+            color: #555555;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .bio {
+            font-style: italic;
+            color: #666666;
+            margin: 20px 0;
+        }
+
+        .info-vagas {
+            text-align: left;
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .btn-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #0077b5; /* Mude a cor do botão */
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <!-- MISSÃO 1: Coloque o link de uma imagem que represente você ou a profissão (no src="") -->
+        <img class="foto-perfil" src="https://via.placeholder.com/150" alt="Foto de Perfil">
